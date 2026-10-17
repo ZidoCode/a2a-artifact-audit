@@ -1,0 +1,9 @@
+{"jsonrpc":"2.0","id":1,"result":{"kind":"artifact-update","taskId":"t1","contextId":"c1","append":true,"last_chunk":false,"artifact":{"artifactId":"report","parts":[{"kind":"text","text":"chunk 1 intro"}]}}}
+{"jsonrpc":"2.0","id":1,"result":{"kind":"artifact-update","taskId":"t1","contextId":"c1","append":true,"last_chunk":false,"artifact":{"artifactId":"report","parts":[{"kind":"text","text":"chunk 2 body"}]}}}
+{"jsonrpc":"2.0","id":1,"result":{"kind":"artifact-update","taskId":"t1","contextId":"c1","append":true,"last_chunk":false,"artifact":{"artifactId":"report","parts":[{"kind":"text","text":"chunk 2 body"}]}}}
+{"jsonrpc":"2.0","id":1,"result":{"kind":"artifact-update","taskId":"t1","contextId":"c1","append":true,"last_chunk":true,"artifact":{"artifactId":"report","parts":[{"kind":"text","text":"final"}]}}}
+{"jsonrpc":"2.0","id":1,"result":{"kind":"artifact-update","taskId":"t1","contextId":"c1","append":true,"last_chunk":false,"artifact":{"artifactId":"report","parts":[{"kind":"text","text":"post-close write"}]}}}
+{"jsonrpc":"2.0","id":1,"result":{"kind":"artifact-update","taskId":"t1","contextId":"c1","append":true,"last_chunk":false,"artifact":{"artifactId":"ghost","parts":[{"kind":"text","text":"never announced"}]}}}
+{"jsonrpc":"2.0","id":1,"result":{"kind":"artifact-update","taskId":"t1","contextId":"c1","append":false,"last_chunk":false,"artifact":{"artifactId":"orphan","parts":[{"kind":"text","text":"chunk A"}]}}}
+{"jsonrpc":"2.0","id":1,"result":{"kind":"artifact-update","taskId":"t1","contextId":"c1","append":false,"last_chunk":false,"artifact":{"artifactId":"itinerary","parts":[{"kind":"text","text":"v1 full"}]}}}
+{"jsonrpc":"2.0","id":1,"result":{"kind":"artifact-update","taskId":"t1","contextId":"c1","append":false,"last_chunk":false,"artifact":{"artifactId":"itinerary","parts":[{"kind":"text","text":"v2 full"}]}}}
